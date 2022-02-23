@@ -6,8 +6,9 @@ public class Fabonacci {
 		int firstnum =0;
 		int secondnum=1;
 		int sum;
+		int input=8;
 		System.out.println("The fibonacci series is : ");
-		for (int i=1;i<=8;i++)
+		for (int i=1;i<=input;i++)
 		{
 			System.out.println(firstnum);//0/1/1/
 			sum = firstnum + secondnum;//0+1=1/1+0=1/1+1=2
